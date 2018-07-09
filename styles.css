@@ -1,0 +1,62 @@
+.line1 {
+  fill: none;
+  stroke: blue;
+  stroke-width: 2px;
+}
+.line2 {
+  fill: none;
+  stroke: red;
+  stroke-width: 2px;
+}
+
+html {
+    font-family: GillSans, Calibri, Trebuchet, sans-serif;
+  }
+   
+
+ .bar1{
+    fill: steelblue;
+  }
+
+  .bar1:hover{
+    fill: brown;
+  }
+ .bar2{
+    fill: pink;
+  }
+
+  .bar2:hover{
+    fill: blue;
+  } 
+
+  .axis {
+    font: 10px sans-serif;
+  }
+
+  .axis path,
+  .axis line {
+    fill: none;
+    stroke: #000;
+    shape-rendering: crispEdges;
+  }
+
+  svg{
+    margin-left: 100px;
+  }
+
+#graph1 h3,#graph2 h3
+{
+	text-align: center; 
+}
+
+
+.one123 
+{
+  margin-left: 600px;
+}
+.one1234
+{
+  margin-left: 500px; 
+}
+
+

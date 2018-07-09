@@ -1,0 +1,31 @@
+{
+  "name": "Chicago_Crimes_DataAnalysis",
+  "version": "1.0.0",
+  "description": "Analysis of Chicago Crimes Record Data.",
+  "main": "assault.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "./node_modules/.bin/eslint chicago_crimes_csvtojson.js",
+    "generate": "node chicago_crimes_csvtojson.js",
+    "start": "http-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anigam12/Chicago_Crimes_DataAnalysis.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anigam12/Chicago_Crimes_DataAnalysis/issues"
+  },
+  "homepage": "https://github.com/anigam12/Chicago_Crimes_DataAnalysis#readme",
+  "dependencies": {
+    "eslint": "^4.18.1",
+    "http-server": "^0.11.1"
+  },
+  "devDependencies": {
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.9.0"
+  }
+}
